@@ -7,7 +7,7 @@ metadata:
     deployment: pam-deployment
   annotations:
     apps.open-cluster-management.io/github-branch: main
-    apps.open-cluster-management.io/github-path: clusters/cluster1/pam
+    apps.open-cluster-management.io/github-path: clusters/cluster1/bpm
 spec:
   channel:  rhpam-monitoring/pam-channel
   placement: 
