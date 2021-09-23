@@ -8,7 +8,7 @@ metadata:
   name: businessautomation-operator
   namespace: rhpam-monitoring
   labels:
-    operators.coreos.com/businessautomation-operator.rhpam-monitoring: ''
+    operators.coreos.com/businessautomation-operator.openshift-operators: ''
 spec:
   channel: stable
   installPlanApproval: Automatic
