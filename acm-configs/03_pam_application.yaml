@@ -2,7 +2,7 @@ apiVersion: app.k8s.io/v1beta1
 kind: Application
 metadata:
   name: pam-deployment
-  namespace: rhpam-monitoring
+  namespace: openshift-operators
 spec:
   selector:
     matchExpressions:
