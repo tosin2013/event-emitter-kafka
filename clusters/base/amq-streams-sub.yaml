@@ -4,7 +4,7 @@ metadata:
   name: amq-streams
   namespace: openshift-operators
   labels:
-    operators.coreos.com/amq-streams.rhpam-monitoring: ''
+    operators.coreos.com/amq-streams.openshift-operators: ''
 spec:
   channel: stable
   installPlanApproval: Autonmatic
