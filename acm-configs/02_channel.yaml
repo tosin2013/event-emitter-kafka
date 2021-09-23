@@ -1,7 +1,7 @@
 apiVersion: apps.open-cluster-management.io/v1
 kind: Channel
 metadata:
-  name: process-automation-manager-channel
+  name: pam-channel
   namespace: rhpam-monitoring
   annotations:
     apps.open-cluster-management.io/git-branch: main

@@ -1,15 +1,15 @@
 apiVersion: apps.open-cluster-management.io/v1
 kind: Subscription
 metadata:
-  name: process-automation-manager-deployment-local-cluster
+  name: pam-deployment-local-cluster
   namespace: rhpam-monitoring
   labels:
-    deployment: process-automation-manager-deployment
+    deployment: pam-deployment
   annotations:
     apps.open-cluster-management.io/github-branch: main
     apps.open-cluster-management.io/github-path: clusters/local-cluster
 spec:
-  channel:  rhpam-monitoring/process-automation-manager-channel
+  channel:  rhpam-monitoring/pam-channel
   placement: 
     placementRef: 
       kind: PlacementRule
