@@ -3,6 +3,8 @@ kind: Subscription
 metadata:
   name: businessautomation-operator
   namespace: openshift-operators
+  labels:
+    operators.coreos.com/businessautomation-operator.openshift-operators: ''
 spec:
   channel: stable
   installPlanApproval: Automatic
