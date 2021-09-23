@@ -4,3 +4,4 @@ kind: Kustomization
 
 resources:
   - amq-streams-sub.yaml
+  - businessautomation-operator-sub.yaml
