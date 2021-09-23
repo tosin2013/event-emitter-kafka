@@ -17,17 +17,17 @@ oc login --token=sha256~XXXXX--server=https://api.ocp4.example.com:6443
 
 **Create namespace for dev environment**
 ```
-oc create -f acm/01_namespace.yaml
+oc create -f acm-configs/01_namespace.yaml
 ```
 
 **Create Channel for dev environment**
 ```
-oc create -f acm/02_channel.yaml 
+oc create -f acm-configs/02_channel.yaml 
 ```
 
 **Create Application for dev environment**
 ```
-oc create -f acm/03_application.yaml
+oc create -f acm-configs/03_application.yaml
 ```
 
 ### Deploy to Camel-k Integration local-cluster (ACM HUB)
@@ -35,12 +35,12 @@ oc create -f acm/03_application.yaml
 
 **Create Placement rule for local cluster**
 ```
-oc create -f acm/04_placement_local_cluster.yaml 
+oc create -f acm-configs/04_placement_local_cluster.yaml 
 ```
 
 **Create subscription rule for local cluster**
 ```
-oc create -f acm/05_subscription_local_cluster.yaml 
+oc create -f acm-configs/05_subscription_local_cluster.yaml 
 ```
 
 ### Deploy Camel-k Integration  to cluster1 
@@ -49,12 +49,12 @@ oc create -f acm/05_subscription_local_cluster.yaml
 
 **Create Placement rule for cluster1**
 ```
-oc create -f acm/04_placement_cluster1.yaml
+oc create -f acm-configs/04_placement_cluster1.yaml
 ```
 
 **Create subscription rule for cluster1**
 ```
-oc create -f acm/05_subscription_cluster1.yaml
+oc create -f acm-configs/05_subscription_cluster1.yaml
 ```
 
 
