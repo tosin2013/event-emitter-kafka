@@ -7,7 +7,7 @@ metadata:
     deployment: pam-deployment
   annotations:
     apps.open-cluster-management.io/github-branch: main
-    apps.open-cluster-management.io/github-path: clusters/local-cluster
+    apps.open-cluster-management.io/github-path: clusters/local-cluster/pam
 spec:
   channel:  openshift-operators/pam-channel
   placement: 
