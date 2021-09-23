@@ -2,14 +2,14 @@ apiVersion: apps.open-cluster-management.io/v1
 kind: Subscription
 metadata:
   name: pam-deployment-local-cluster
-  namespace: openshift-operators
+  namespace: rhpam-monitoring
   labels:
     deployment: pam-deployment
   annotations:
     apps.open-cluster-management.io/github-branch: main
     apps.open-cluster-management.io/github-path: clusters/local-cluster/pam
 spec:
-  channel:  openshift-operators/pam-channel
+  channel:  rhpam-monitoring/pam-channel
   placement: 
     placementRef: 
       kind: PlacementRule
