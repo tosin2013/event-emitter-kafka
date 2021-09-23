@@ -3,11 +3,9 @@ kind: Subscription
 metadata:
   name: amq-streams
   namespace: openshift-operators
-  labels:
-    operators.coreos.com/amq-streams.openshift-operators: ''
 spec:
   channel: stable
-  installPlanApproval: Autonmatic
+  installPlanApproval: Automatic
   name: amq-streams
   source: redhat-operators
   sourceNamespace: openshift-marketplace
