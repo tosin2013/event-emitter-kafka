@@ -3,6 +3,9 @@ kind: Channel
 metadata:
   name: process-automation-manager-channel
   namespace: rhpam-monitoring
+  annotations:
+    apps.open-cluster-management.io/git-branch: main
+    apps.open-cluster-management.io/git-path: ''
 spec:
   pathname: 'https://github.com/tosin2013/event-emitter-kafka.git'
   type: GitHub
