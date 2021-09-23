@@ -10,3 +10,6 @@ Then we install the integration with kamel command line
 
 `kamel install`
 `kamel run ElasticConnector.java`
+
+### ACM Deployment 
+[ACM Configs for Camel-k Integration](acm-configs/README.md)
