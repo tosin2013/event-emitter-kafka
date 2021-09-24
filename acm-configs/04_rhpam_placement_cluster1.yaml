@@ -1,7 +1,7 @@
 apiVersion: apps.open-cluster-management.io/v1
 kind: PlacementRule
 metadata:
-  name: cluster1
+  name: cluster1-pam
   namespace: rhpam-monitoring
 spec:
   clusterSelector:
