@@ -9,7 +9,7 @@ metadata:
     apps.open-cluster-management.io/github-branch: main
     apps.open-cluster-management.io/github-path: clusters/local-cluster/bpm
 spec:
-  channel:  rhpam-monitoring/amq-channel
+  channel:  rhpam-monitoring/pam-channel
   placement: 
     placementRef: 
       kind: PlacementRule
