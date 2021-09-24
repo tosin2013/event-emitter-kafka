@@ -5,6 +5,3 @@ kind: Kustomization
 resources:
   - kafka-cluster.yaml
   - KieApp.yaml
-  - ../kafdrop/kafdrop-deploymentconfig.yaml
-  - ../kafdrop/kafdrop-service.yaml
-  - ../kafdrop/kafdrop-route.yaml
