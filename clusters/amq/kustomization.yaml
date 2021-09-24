@@ -4,6 +4,3 @@ kind: Kustomization
 
 resources:
   - amq-streams-sub.yaml
-  - kafdrop-deploymentconfig.yaml
-  - kafdrop-service.yaml
-  - kafdrop-route.yaml
