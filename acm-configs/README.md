@@ -7,6 +7,7 @@
 *  `clusterid=cluster2`
 *  `clusterid=cluster3`
 *  `clusterid=...`
+> The instructions must be followed in order for proper deployment. 
 
 ## Cluster deployment 
 
