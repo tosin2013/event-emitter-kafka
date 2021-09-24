@@ -21,7 +21,7 @@ public final class ElasticConnector extends RouteBuilder {
                 + consumerMaxPollRecords + "&seekTo=" + "end"
                 + "&groupId=" + "newgroup")
                 .setHeader(Exchange.HTTP_METHOD, constant("POST"))
-                .setHeader("Authorization",constant("Basic ZWxhc3RpYzp3TWNGUDRkR0QzaTA5MzczOGY0cDFHbkE="))
+                .setHeader("Authorization",constant("Basic XXXXX"))
                 .setHeader("Content-Type",constant("application/json"))
                 .to("https://elasticsearch-sample-es-http:9200/process/process")
                 .log("${body}");
@@ -30,7 +30,7 @@ public final class ElasticConnector extends RouteBuilder {
                         + consumerMaxPollRecords + "&seekTo=" + "end"
                         + "&groupId=" + "newgroup")
                         .setHeader(Exchange.HTTP_METHOD, constant("POST"))
-                        .setHeader("Authorization",constant("Basic ZWxhc3RpYzp3TWNGUDRkR0QzaTA5MzczOGY0cDFHbkE="))
+                        .setHeader("Authorization",constant("Basic XXXXX))
                         .setHeader("Content-Type",constant("application/json"))
                         .to("https://elasticsearch-sample-es-http:9200/tasks/tasks")
                         .log("${body}");
