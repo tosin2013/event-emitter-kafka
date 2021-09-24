@@ -1,0 +1,8 @@
+apiVersion: operators.coreos.com/v1alpha2
+kind: OperatorGroup
+metadata:
+  name: own-namespace-operator-group
+  namespace: rhpam-monitoring
+spec:
+  targetNamespaces:
+  - rhpam-monitoring

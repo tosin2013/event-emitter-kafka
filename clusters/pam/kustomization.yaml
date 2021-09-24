@@ -4,5 +4,3 @@ kind: Kustomization
 
 resources:
   - businessautomation-operator-sub.yaml
-  - businessautomation-operator.clusterserviceversion.yaml
-  - kieapp.crd.yaml
