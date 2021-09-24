@@ -2,7 +2,7 @@ apiVersion: apps.open-cluster-management.io/v1
 kind: Channel
 metadata:
   name: pam-channel
-  namespace: openshift-operators
+  namespace: rhpam-monitoring
 spec:
   pathname: 'https://github.com/tosin2013/event-emitter-kafka.git'
   type: GitHub
