@@ -3,7 +3,7 @@ kind: DeploymentConfig
 apiVersion: v1
 metadata:
   name: my-cluster-kafdrop
-  
+  namespace: rhpam-monitoring
   labels:
     app: kafdrop
   annotations:

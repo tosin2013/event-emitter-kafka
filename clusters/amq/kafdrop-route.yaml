@@ -4,6 +4,7 @@ metadata:
   labels:
     app: my-cluster-kafdrop
   name: my-cluster-kafdrop
+  namespace: rhpam-monitoring
 spec:
   port:
     targetPort: 9000-tcp
