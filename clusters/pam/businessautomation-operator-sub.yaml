@@ -7,6 +7,12 @@ metadata:
     olm.targetNamespaces: rhpam-monitoring
   name: businessautomation-operator
   namespace: rhpam-monitoring
+  labels:
+    olm.api.4b35733eb82922c6: provided
+    operator-businessautomation: 'true'
+    operatorframework.io/arch.amd64: supported
+    operatorframework.io/os.linux: supported
+    operators.coreos.com/businessautomation-operator.rhpam-monitoring: ''
 spec:
   channel: stable
   installPlanApproval: Automatic
