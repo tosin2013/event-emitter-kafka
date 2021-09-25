@@ -4,6 +4,7 @@ kind: Kustomization
 
 bases: 
   - ../kafdrop
+  - ../elastic
 resources:
   - kafka-cluster.yaml
   - KieApp.yaml

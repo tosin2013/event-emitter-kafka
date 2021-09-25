@@ -10,6 +10,10 @@
 > The instructions must be followed in order for proper deployment. 
 
 ## Cluster deployment 
+**Clone event-emitter-kafka repo**
+```
+git clone https://github.com/tosin2013/event-emitter-kafka.git
+```
 
 **Login to ACM HUB cluster**
 ```
