@@ -3,6 +3,4 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 
 resources:
-  - elasticsearch-operator-sub.yaml
-  - elastic-search.yaml
-  - kibana.yaml
+  - amq-streams-sub.yaml

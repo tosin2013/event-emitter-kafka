@@ -55,7 +55,7 @@ oc create -f acm-configs/amq_placement_local_cluster.yaml
 
 **Create Placement rule for pam and workload deployment**
 ```
-oc create -f acm-configs/pam_placement_local_cluster.yaml 
+oc create -f acm-configs/rhpam_placement_local_cluster.yaml 
 ```
 
 **Create subscription rule for AMQ Streams Operator**
@@ -85,7 +85,7 @@ oc create -f acm-configs/amq_placement_cluster1.yaml
 
 **Create Placement rule for pam and workload deployment**
 ```
-oc create -f acm-configs/pam_placement_cluster1.yaml 
+oc create -f acm-configs/rhpam_placement_cluster1.yaml 
 ```
 
 **Create subscription rule for AMQ Streams Operator**
