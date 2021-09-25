@@ -9,7 +9,13 @@
 *  `clusterid=...`
 > The instructions must be followed in order for proper deployment. 
 
-## Cluster deployment 
+## Quickly configure local-cluster (ACM Hub Cluster)
+```
+./configure-acm-deployment-local-cluster.sh 
+```
+
+
+## Manual Cluster deployment 
 **Clone event-emitter-kafka repo**
 ```
 git clone https://github.com/tosin2013/event-emitter-kafka.git
