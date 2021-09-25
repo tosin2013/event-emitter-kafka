@@ -6,3 +6,4 @@ resources:
   - elasticsearch-operator-sub.yaml
   - elastic-search.yaml
   - kibana.yaml
+  - kibana-route.yaml
