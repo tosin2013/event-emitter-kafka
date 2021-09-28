@@ -5,6 +5,7 @@ kind: Kustomization
 bases: 
   - ../kafdrop
   - ../elastic
+  - ../camel-k
   
 resources:
   - kafka-cluster.yaml

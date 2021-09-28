@@ -1,0 +1,8 @@
+---
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+resources:
+  - camel-k-operator-sub.yaml
+  - camel-k-ip.yaml
+  - camel-k-elastic-connector.yaml

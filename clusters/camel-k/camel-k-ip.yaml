@@ -1,0 +1,14 @@
+apiVersion: camel.apache.org/v1
+kind: IntegrationPlatform
+metadata:
+  labels:
+    app: camel-k
+  name: camel-k
+  namespace: rhpam-monitoring
+spec:
+  build:
+    maven:
+      settings: {}
+    registry: {}
+  kamelet: {}
+  resources: {}
