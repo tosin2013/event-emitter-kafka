@@ -1,0 +1,16 @@
+apiVersion: apps.open-cluster-management.io/v1
+kind: Subscription
+metadata:
+  name: workload-cluster3
+  namespace: rhpam-monitoring
+  labels:
+    deployment: pam-deployment
+  annotations:
+    apps.open-cluster-management.io/github-branch: main
+    apps.open-cluster-management.io/github-path: clusters/cluster3
+spec:
+  channel:  rhpam-monitoring/pam-channel
+  placement: 
+    placementRef: 
+      kind: PlacementRule
+      name: cluster3-pam

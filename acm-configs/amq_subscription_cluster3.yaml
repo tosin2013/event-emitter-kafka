@@ -1,0 +1,16 @@
+apiVersion: apps.open-cluster-management.io/v1
+kind: Subscription
+metadata:
+  name: amq-deployment-cluster3
+  namespace: openshift-operators
+  labels:
+    deployment: amq-deployment
+  annotations:
+    apps.open-cluster-management.io/github-branch: main
+    apps.open-cluster-management.io/github-path: clusters/cluster3/amq
+spec:
+  channel:  openshift-operators/amq-channel
+  placement: 
+    placementRef: 
+      kind: PlacementRule
+      name: cluster3
