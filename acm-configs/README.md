@@ -108,3 +108,61 @@ oc create -f acm-configs/pam_subscription_cluster1.yaml
 ```
 oc create -f acm-configs/workload_subscription_cluster1.yaml
 ```
+
+### Deploy Camel-k Integration  to cluster2 
+
+**Deploy Camel-k Integration to cluster2**
+
+**Create Placement rule for AMQ Streams Operator**
+```
+oc create -f acm-configs/amq_placement_cluster2.yaml
+```
+
+**Create Placement rule for pam and workload deployment**
+```
+oc create -f acm-configs/rhpam_placement_cluster2.yaml 
+```
+
+**Create subscription rule for AMQ Streams Operator**
+```
+oc create -f acm-configs/amq_subscription_cluster2.yaml
+```
+
+**Create subscription rule for pam deployment**
+```
+oc create -f acm-configs/pam_subscription_cluster2.yaml
+```
+
+**Create subscription rule for workload deployment**
+```
+oc create -f acm-configs/workload_subscription_cluster2.yaml
+```
+
+### Deploy Camel-k Integration  to cluster3 
+
+**Deploy Camel-k Integration to cluster3**
+
+**Create Placement rule for AMQ Streams Operator**
+```
+oc create -f acm-configs/amq_placement_cluster3.yaml
+```
+
+**Create Placement rule for pam and workload deployment**
+```
+oc create -f acm-configs/rhpam_placement_cluster3.yaml 
+```
+
+**Create subscription rule for AMQ Streams Operator**
+```
+oc create -f acm-configs/amq_subscription_cluster3.yaml
+```
+
+**Create subscription rule for pam deployment**
+```
+oc create -f acm-configs/pam_subscription_cluster3.yaml
+```
+
+**Create subscription rule for workload deployment**
+```
+oc create -f acm-configs/workload_subscription_cluster3.yaml
+```
