@@ -104,6 +104,7 @@ oc create -f acm-configs/amq_subscription_cluster1.yaml
 oc create -f acm-configs/pam_subscription_cluster1.yaml
 ```
 
+> IMPORTANT wait for the cluster operators to deploy before running the command below 
 **Create subscription rule for workload deployment**
 ```
 oc create -f acm-configs/workload_subscription_cluster1.yaml
@@ -133,6 +134,7 @@ oc create -f acm-configs/amq_subscription_cluster2.yaml
 oc create -f acm-configs/pam_subscription_cluster2.yaml
 ```
 
+> IMPORTANT wait for the cluster operators to deploy before running the command below 
 **Create subscription rule for workload deployment**
 ```
 oc create -f acm-configs/workload_subscription_cluster2.yaml
@@ -162,6 +164,7 @@ oc create -f acm-configs/amq_subscription_cluster3.yaml
 oc create -f acm-configs/pam_subscription_cluster3.yaml
 ```
 
+> IMPORTANT wait for the cluster operators to deploy before running the command below 
 **Create subscription rule for workload deployment**
 ```
 oc create -f acm-configs/workload_subscription_cluster3.yaml
