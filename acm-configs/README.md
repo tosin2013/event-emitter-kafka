@@ -166,3 +166,7 @@ oc create -f acm-configs/pam_subscription_cluster3.yaml
 ```
 oc create -f acm-configs/workload_subscription_cluster3.yaml
 ```
+
+## Known Issues and work arounds 
+* Operators deploy but the application does not 
+  * delete the deployment and retry. 
