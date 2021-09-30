@@ -172,4 +172,4 @@ oc create -f acm-configs/workload_subscription_cluster3.yaml
 
 ## Known Issues and work arounds 
 * Operators deploy but the application does not 
-  * delete the deployment and retry. 
+  * Delete the workload_subscription* and recreate it. 
